@@ -1,0 +1,38 @@
+general {
+    colors = true
+ #   interval = 5
+}
+
+order += "disk /"
+order += "memory"
+order += "cpu_usage"
+#order += "wireless wlan0"
+#order += "battery 0"
+order += "tztime local"
+
+disk "/" {
+    format = "DISK %avail"
+}
+
+memory {
+    format = "RAM %used/%total"
+}
+
+cpu_usage {
+    format = "CPU %usage"
+}
+
+#wireless wlan0 {
+#    format_up = "WIFI %essid %quality"
+#    format_down = "WIFI down"
+#}
+
+#battery 0 {
+  #  format = "BAT %percentage %remaining"
+ #   low_threshold = 15
+#}
+
+tztime local {
+    format = "%d/%m %H:%M"
+}
+
