@@ -41,7 +41,8 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 #firefox
-bindsym $mod+a exec firefox
+#bindsym $mod+a exec firefox
+bindsym $mod+a exec google-chrome-stable
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -196,7 +197,7 @@ client.unfocused        #181825 #181825 #6c7086 #181825 #6c7086
 client.focused_inactive #181825 #181825 #6c7086 #181825 #6c7086
 client.urgent           #f38ba8 #f38ba8 #1e1e2e #f38ba8 #1e1e2e
 #Wallpaper
-exec --no-startup-id feh --bg-scale /home/lucas/.config/i3/wallpaper.jpg
+exec --no-startup-id feh --bg-scale /home/lucas/.config/i3/frieren_1.png
 #sensibilidade
 exec --no-startup-id xinput set-prop 6 "libinput Accel Speed" -0.5
 #teclado
