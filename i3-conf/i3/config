@@ -197,7 +197,7 @@ client.unfocused        #181825 #181825 #6c7086 #181825 #6c7086
 client.focused_inactive #181825 #181825 #6c7086 #181825 #6c7086
 client.urgent           #f38ba8 #f38ba8 #1e1e2e #f38ba8 #1e1e2e
 #Wallpaper
-exec --no-startup-id feh --bg-scale /home/lucas/.config/i3/frieren_1.png
+exec --no-startup-id feh --bg-scale /home/lucas/.config/i3/frieren_2.jpeg
 #sensibilidade
 exec --no-startup-id xinput set-prop 6 "libinput Accel Speed" -0.5
 #teclado
