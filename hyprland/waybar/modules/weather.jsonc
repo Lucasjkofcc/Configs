@@ -1,0 +1,11 @@
+{
+  "custom/weather": {
+    "interval": 600,
+    "return-type": "json",
+    "exec": "/home/lucas/.config/waybar/scripts/weather.sh",
+    "format": "{}",
+    "format-alt": "{}",
+    "tooltip": false,
+    "on-click": "notify-send 'Clima' \"$(curl -s 'https://wttr.in/Itaqui?format=3')\""
+  }
+}

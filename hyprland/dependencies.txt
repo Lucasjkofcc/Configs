@@ -1,0 +1,1 @@
+hyprland waybar rofi nerd-fonts jetbrains-mono-nerd obsidian google-chrome-stable kitty visual-studio-code-bin dolphin spotify hyprshot network-manager-applet hyprpaper
